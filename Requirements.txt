@@ -1,0 +1,5 @@
+Scrapy (Data Scraping)
+Transformers
+Torch
+Tensorflow
+Streamlit
