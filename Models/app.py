@@ -71,12 +71,3 @@ if st.button("Find Relevant Legal Sections"):
 # Write the updated list back to the JSON file without overwriting
 with open('../Trainer/accuracy.json', 'w') as json_file:
     json.dump(sect, json_file, indent=4)
-
-# Code Added to load data from parsed_pdf_text.json
-import json
-def load_parsed_pdf_text(file_path1='Trainer/parsed_pdf_text.json'):
-    with open(file_path1, 'r') as json_file:
-        return json.load(json_file)
-
-# Use `load_parsed_pdf_text` in your training code where parsed PDF text is needed
-parsed_pdf_text = load_parsed_pdf_text()
