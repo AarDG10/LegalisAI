@@ -1,3 +1,5 @@
 venv
 Models/__pycache__
 Models/nltk_data
+# Added here to prevent sensitive data getting compromised
+PDFExtractor/credentials.json
